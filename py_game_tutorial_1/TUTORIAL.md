@@ -101,9 +101,9 @@ Przyjęło się, że aplikacja powinna posiadać następujące metody w swojej p
 
 ```python
 while True:
-    events()
-    loop()
-    render()
+    self.events()
+    self.loop()
+    self.render()
 ```
 
 `events` - metoda która powinna zawierać obsługę eventów
